@@ -6,9 +6,9 @@ public class RadioTest {
     @Test
     public void test() {
         Radio radio = new Radio();
-        radio.setCurrentStation(100);
+        radio.setCurrentStation(9);
 
-        int expected = 0;
+        int expected = 9;
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
